@@ -321,12 +321,6 @@ body {
 }
 
 @media only screen and (max-width: 37.5em) {
-  .main .about-section {
-    padding: 8rem 10rem;
-  }
-}
-
-@media only screen and (max-width: 37.5em) {
   .main .about-section__heading {
     margin-bottom: 4rem;
   }
@@ -486,12 +480,6 @@ body {
   margin: 4rem 0;
 }
 
-@media only screen and (max-width: 37.5em) {
-  .main .project-section {
-    padding: 8rem 10rem;
-  }
-}
-
 .main .project-section__subheading {
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -632,12 +620,6 @@ body {
   background-color: #33363b;
   padding: 5rem;
   margin: 4rem 0;
-}
-
-@media only screen and (max-width: 37.5em) {
-  .main .contact-section {
-    padding: 8rem;
-  }
 }
 
 .main .contact-section__text {
