@@ -61,9 +61,9 @@ html {
 }
 
 body {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   line-height: 1.2;
   font-weight: 300;
   background-color: #33363b;
@@ -386,8 +386,9 @@ body {
 }
 
 .main .about-section__bio .bio-text {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #D0E0EB;
+  line-height: 1.7;
 }
 
 .main .about-section__skills {
@@ -487,7 +488,7 @@ body {
 
 .main .project-section__text {
   margin-bottom: 4rem;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #D0E0EB;
 }
 
@@ -548,8 +549,9 @@ body {
   grid-area: name;
   color: #eaeaea;
   margin: .5rem 0;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2rem;
+  line-height: 1.7;
 }
 
 .main .project-section .projects .project__text {
@@ -558,7 +560,8 @@ body {
   -ms-grid-column-span: 2;
   grid-area: text;
   color: #eaeaea;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
 }
 
 .main .project-section .projects .project__git {
@@ -616,7 +619,6 @@ body {
 }
 
 .main .contact-section {
-  min-height: 100vh;
   background-color: #33363b;
   padding: 5rem;
   margin: 4rem 0;
@@ -625,11 +627,12 @@ body {
 .main .contact-section__text {
   color: #D0E0EB;
   font-size: 1.7rem;
+  line-height: 1.7;
 }
 
 @media only screen and (max-width: 37.5em) {
   .main .contact-section__text {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -647,7 +650,7 @@ body {
   max-width: 1000px;
   padding: 5rem 0;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 3rem;
   background-color: #222327;
   color: #D0E0EB;
   text-align: center;
@@ -684,16 +687,6 @@ body {
 .main .contact-section__item:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-}
-
-.footer {
-  margin-top: -2rem;
-}
-
-@media only screen and (max-width: 37.5em) {
-  .footer {
-    margin-top: -5rem;
-  }
 }
 
 .footer-main {
