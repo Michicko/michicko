@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="70x70" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Michicko - Michael Solomon</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="navigation">
+            <input type="checkbox" id="navigation__toggler" class="navigation__checkbox">
+            <label for="navigation__toggler" class="navigation__btn">
+                <span class="navigation__icon">
+                    &nbsp;
+                </span>
+            </label>
+            <div class="navigation__background">
+                &nbsp;
+            </div>
+            <nav class="navigation__nav" id="navbar">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#header" class="navigation__link current">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#about-section" class="navigation__link">About Me</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#projects" class="navigation__link">Projects</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#contact-section" class="navigation__link">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main" class="main">
+        <section id="welcome-section" class="welcome-section">
+            <img src="img/logo-icon.svg" alt="logo" class="welcome-section__logo">
+            <div class="welcome-section__box">
+            <h1 class="primary-heading">
+                <span class="primary-heading__main">
+                    Michael 
+                </span> 
+            <span class="primary-heading__sub">
+                Solomon
+            </span>
+        </h1>
+            <h2 class="secondary-heading welcome-section__subheading">I'm a web developer</h2>
+            <div class="icons">
+                <a href="https://github.com/Michicko/" class="profile-link" id="profile-link" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="#" class="profile-link" target="_blank">
+                    <i class="fa fa-facebook-official"></i>
+                </a>
+                <a href="#" class="profile-link" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="profile-link" target="_blank">
+                    <i class="fa fa-free-code-camp"></i>
+                </a>
+                <a href="#" class="profile-link" target="_blank">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </div>
+            </div>
+        </section>
+        <section class="about-section" id="about-section">
+            <div class="about-section__heading">
+                <h1 class="primary-heading">About <span class="primary-heading__sub">Me</span></h1>
+                <h2 class="secondary-heading small">Let me tell you a few things about me...</h2>
+            </div>
+            <div class="about-section-contents">
+                <img src="img/avatar.png" alt="my pics" class="about-section__img">
+                <div class="about-section__bio">
+                    <h3 class="bio-heading tertary-heading">BIO</h3>
+                    <p class="bio-text">
+                         I am a web developer from Lagos, Nigeria. I enjoy building everything from small business sites to rich interactive web apps.
+                        I love to code things from scratch and enjoy bringing ideas to life in the browser.
+                    </p>
+                </div>
+                <div class="about-section__skills">
+                    <h3 class="skills-heading tertiary__heading">Skills</h3>
+                    <p class="skills-text">Things i've learned:</p>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            html
+                        </li>
+                        <li class="skill-item">
+                            CSS
+                        </li>
+                        <li class="skill-item">
+                            sass
+                        </li>
+                        <li class="skill-item">
+                            Javascript
+                        </li>
+                        <li class="skill-item">
+                            Express
+                        </li>
+                        <li class="skill-item">
+                            Node js
+                        </li>
+                        <li class="skill-item">
+                            MongoDb
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="project-section" id="projects">
+            <h1 class="project-section__heading primary-heading">My 
+                <span class="primary-heading__sub">Projects</span>
+            </h1>
+            <h2 class="project-section__subheading secondary-heading small">My works...</h2>
+            <p class="project-section__text">These are some of the projects i've worked on. You can find more on my
+                github page.</p>
+            <div class="projects">
+                <div class="project__tile" id="project-tile">
+                    <img src="img/brivesound.PNG" alt="brivesound img" class="project__img">
+                    <h3 class="project__heading">Brivesound</h3>
+                    <p class="project__text">Brivesound is a demo headphone company.</p>
+                    <a href="https://michicko.github.io/brivesound/" class="project__link project__see" target="_blank"><i class="fa fa-eye"></i>
+                    </a>
+                    <a href="https://github.com/Michicko/brivesound" class="project__link project__git" target="_blank"><i
+                            class="fa fa-github"></i>
+                    </a>
+                </div>
+                <div class="project__tile" id="project-tile">
+                    <img src="img/budgetApp.PNG" alt="budget img" class="project__img">
+                    <h3 class="project__heading">Budget App</h3>
+                    <p class="project__text">An app that calculates expenses and keeps track of your
+                        budget and expenditures.
+                    </p>
+                    <a href="https://michicko.github.io/budgetApp/" class="project__link project__see" target="_blank"><i
+                            class="fa fa-eye"></i>
+                    </a>
+                    <a href="https://github.com/Michicko/budgetApp" class="project__link project__git" target="_blank"><i
+                            class="fa fa-github"></i>
+                    </a>
+                </div>
+                <div class="project__tile" id="project-tile">
+                    <img src="img/felatribute.PNG" alt="felatribute img" class="project__img">
+                    <h3 class="project__heading">Tribute to Fela</h3>
+                    <p class="project__text">Fela's tribute page</p>
+                    <a href="https://michicko.github.io/felatribute/" class="project__link project__see" target="_blank"><i
+                            class="fa fa-eye"></i>
+                    </a>
+                    <a href="https://github.com/Michicko/felatribute" class="project__link project__git" target="_blank"><i
+                            class="fa fa-github"></i>
+                    </a>
+                </div>
+                <div class="project__tile" id="project-tile">
+                    <img src="img/noteapp.PNG" alt="brivesound img" class="project__img">
+                    <h3 class="project__heading">Note App</h3>
+                    <p class="project__text">A note app, have a thing in mind, write them down.</p>
+                    <a href="https://michicko.github.io/noteApp/" class="project__link project__see" target="_blank"><i
+                            class="fa fa-eye"></i>
+                    </a>
+                    <a href="https://github.com/Michicko/noteapp" class="project__link project__git" target="_blank"><i
+                            class="fa fa-github"></i>
+                    </a>
+                </div>
+                <div class="project__tile" id="project-tile">
+                    <img src="img/simpsons.PNG" alt="Simpsons img" class="project__img">
+                    <h3 class="project__heading">Simpsons quote generator</h3>
+                    <p class="project__text">Get random simpsons quotes with your favorite characters.</p>
+                    <a href="https://michicko.github.io/simpsonsQuotesGenerator/" class="project__link project__see" target="_blank"><i
+                            class="fa fa-eye"></i>
+                    </a>
+                    <a href="https://github.com/Michicko/simpsonsQuotesGenerator" class="project__link project__git" target="_blank"><i
+                            class="fa fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact-section">
+            <h1 class="contact-section__heading primary-heading">
+                Contact <span class="primary-heading__sub">Me</span> 
+            </h1>
+            <h2 class="contact-section__subheading secondary-heading small">This is How you can reach me...</h2>
+            <p class="contact-section__text">
+                I'm always looking for opportunities. However, if you have a request or question, don't hesitate to contact me.
+            </p>
+            <div class="contact-section__details">
+                <h4 class="phone contact-section__item"><i class="fa fa-phone"></i>+2347033740016</h4>
+                <h4 class="phone contact-section__item"><i class="fa fa-phone"></i>+2348096510757</h4>
+                <h4 class="email contact-section__item"><i class="fa fa-envelope"></i>michicko81@gmail.com</h4>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer-main">
+            <img src="img/logo-word.svg" alt="footer logo" class="footer-main__logo">
+            <div class="footer-main__icons">
+                <a href="https://github.com/Michicko/" class="footer-main__link" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="#" class="footer-main__link" target="_blank">
+                    <i class="fa fa-facebook-square" target="_blank"></i>
+                </a>
+                <a href="#" class="footer-main__link" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#" class="footer-main__link" target="_blank">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-sub">
+           copyrights | &copy; Michicko 2020. 
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
